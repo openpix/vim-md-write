@@ -1,5 +1,4 @@
 "autocmd Filetype markdown map <leader>w yiWi[<esc>Ea](<esc>pa)
-echom "load... vim-md-write"
 autocmd Filetype markdown inoremap <buffer> ,f <Esc>/<++><CR>:nohlsearch<CR>"_c4l
 autocmd Filetype markdown inoremap <buffer> ,w <Esc>/ <++><CR>:nohlsearch<CR>"_c5l<CR>
 autocmd Filetype markdown inoremap <buffer> ,n ---<Enter><Enter>
